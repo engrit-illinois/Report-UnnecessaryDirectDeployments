@@ -2,6 +2,9 @@
 
 This module looks through the org's standardized deployment collections, notes the deployments, and reports any deployments of the same apps which are directly deployed to other collections, and which collections. The idea is to limit the number of duplicated one-off deployments, to limit the overall number of deployments and thus limit time spent troubleshooting broken deployments.  
 
+# Org-specific warning
+Note: this module is currently written specifically for use in the College of Engineering of the University of Illinois. It's published mostly for reference and requires refactoring for use in other organizations.  
+
 ### Example usage
 
 1. Download `Report-UnnecessaryDirectDeployments.psm1` to `$HOME\Documents\WindowsPowerShell\Modules\Report-UnnecessaryDirectDeployments\Report-UnnecessaryDirectDeployments.psm1`.
