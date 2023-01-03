@@ -7,7 +7,7 @@ Note: this module is currently written specifically for use in the College of En
 
 ### Example usage
 
-1. Download `Report-UnnecessaryDirectDeployments.psm1` to `$HOME\Documents\WindowsPowerShell\Modules\Report-UnnecessaryDirectDeployments\Report-UnnecessaryDirectDeployments.psm1`.
+1. Download `Report-UnnecessaryDirectDeployments.psm1` to the appropriate subdirectory of your PowerShell [modules directory](https://github.com/engrit-illinois/how-to-install-a-custom-powershell-module).
 2. Run it.
     - e.g. `Report-UnnecessaryDirectDeployments`
 3. Review the generated CSV.
